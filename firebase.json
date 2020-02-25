@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "react-to-do-kmm",
     "public": "build",
     "ignore": [
       "firebase.json",
