@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import "./ToDo.css";
 
 // 1. Add a delete button to the ToDo component. Check
 
@@ -15,7 +16,7 @@ class ToDo extends Component {
         />
         <span>{ this.props.description }</span>
         <button onClick={this.props.deleteTodo}>
-          Del
+          Remove Assignment
         </button>
       </li>
     );

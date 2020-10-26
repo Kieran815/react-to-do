@@ -1,0 +1,11 @@
+#header {
+    background-color: forestgreen;
+    color: orange;
+    min-height: 10rem;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.5em;
+    width: 100%;
+    padding-bottom: 1.5rem;
+    text-shadow: -1.5px 1.5px #000;
+}
