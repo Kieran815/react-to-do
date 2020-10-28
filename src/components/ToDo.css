@@ -1,17 +1,25 @@
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5rem;
+}
+
 li {
     display: flex;
     justify-content: center;
     background-color: floralwhite;
     margin-top: 2rem;
-    padding: 0.5rem 1rem 0.5rem 1rem;
     align-items: center;
     border-radius: 20px;
+    min-width: 80%;
 }
 
 li > input {
-    padding: 0.5rem;
     margin: 1rem;
 }
+
 li > span {
     background-color: green;
     color: orange;
@@ -23,10 +31,14 @@ li > span {
 }
 
 li > button {
-    margin: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
     background: orange;
     height: 3rem;
     padding: 1rem;
     border-radius: 25px;
     border: none;
+    text-align: center;
 }
