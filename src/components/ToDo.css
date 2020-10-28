@@ -3,7 +3,6 @@ ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 1.5rem;
 }
 
 li {
@@ -24,7 +23,7 @@ li > span {
     background-color: green;
     color: orange;
     min-width: 80%;
-    padding: 1rem;
+    padding: 1rem 0 1rem 0;
     font-size: 1.25rem;
     border-radius: 25px;
     text-align: center;
@@ -41,4 +40,10 @@ li > button {
     border-radius: 25px;
     border: none;
     text-align: center;
+}
+
+@media screen and (min-width: 500px) {
+    ul {
+        min-width: 100%;
+    }
 }
